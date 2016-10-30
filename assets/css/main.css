@@ -1,1 +1,6 @@
 /* custom styles */
+#page-wrapper img {
+  height: 300px;
+  width: 350px;
+  border: 10px solid black;
+}
