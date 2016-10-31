@@ -3,4 +3,10 @@
   height: 300px;
   width: 350px;
   border: 10px solid black;
+  border-radius: 25px;
+
+}
+#page-wrapper {
+  text-align: center;
+  
 }
