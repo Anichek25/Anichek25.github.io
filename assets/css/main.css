@@ -10,3 +10,16 @@
   text-align: center;
   background: rgb(0, 64, 255);
 }
+#navContainer ul li a{
+  disply: inline;
+
+}
+#navContainer ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+a:hover {
+  color: grey;
+  background-color: rgb(144, 196, 212);
+}
