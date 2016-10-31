@@ -10,14 +10,14 @@
   text-align: center;
 }
 
-ul {
+#navContainer ul {
   list-style: none;
   background-color: #444;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-li {
+#navContainer li {
   font-family: 'Oswald', sans-serif;
   font-size: 1.2em;
   line-height: 40px;
@@ -25,18 +25,18 @@ li {
   border-bottom: 1px solid #888;
 }
 
-a {
+#navContainer a {
   text-decoration: none;
   color: #fff;
   display: block;
   transition: .3s background-color;
 }
 
-a:hover {
+#navContainer a:hover {
   background-color: #005f5f;
 }
 
-a.active {
+#navContainer a.active {
   background-color: #fff;
   color: #444;
   cursor: default;
