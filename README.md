@@ -28,4 +28,9 @@ TODO: Write credits
 
 ## License
 
+#Future updates
+  put technology quote on a div and use a better color on the text.
+  Move the quote.
+  Change my name and professional title by removing I am and my name.
+
 TODO: Write license

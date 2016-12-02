@@ -1,1 +1,66 @@
-/* custom styles */
+img {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body {
+  background-position: center;
+  background-size: 100%;
+
+}
+
+
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+nav ul li {
+   display: inline-block;
+   text-align: center;
+   padding: 14px 16px;
+   background-color: #111;
+   color: #FFFFFF;
+   border-radius: 10;
+
+}
+
+p {
+  font-size: 20px;
+  font-style: italic;
+
+}
+h2 {
+  text-transform: full-width;
+}
+nav ul li:hover {
+  background-color: #333;
+}
+
+
+#page-wrapper {
+
+  border-bottom: 1px dashed #F2F2F2;
+  margin-bottom: 15px;
+  padding: 15px;
+  text-align: center;
+
+}
+.contact-Me:hover .contact-Me-content {
+  display: block;
+
+
+}
