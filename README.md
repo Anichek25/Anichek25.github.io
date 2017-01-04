@@ -1,6 +1,7 @@
-# Project Name
+# Project Name: personal_Portfolio.
 
-TODO: Write a project description
+TODO: Write a project description:
+I used Progressive CSS3 Way, thanks to this background-size property now in CSS3. I used the html element (which is better than using body as it's always at least the height of the browser window). This helped in setting a fixed and centered background on my website, then adjust it's size using background-size set to the cover keyword.
 
 ## Installation
 

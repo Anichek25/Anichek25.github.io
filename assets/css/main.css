@@ -1,71 +1,89 @@
+html {
+  background: url(../images/background-image.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Helvetica', sans-serif;
+}
+
+
+.web_Tech {
+  width: 400px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 140px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
 img {
     border: 1px solid #ddd;
-    border-radius: 20px;
-    padding: 5px;
-    display: block;
+    border-radius: 100px;
     width: 200px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
 
 }
 
-body {
-  background-position: center;
-  font-family: 'Arial', sans-serif;
-  background-size: 100%;
-  text-align: center;
-  padding: top: 0;
-  margin: 0;
+h1 {
 
-}
-#nav {
-  width: 100%;
-  height: 200px;
-  float: left;
-
-}
-
-#nav_wrapper {
-  height: 100px;
-  width: 500px;
-  background: #A4A4A4;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100;
-  opacity: 0.5px;
-  filter: alpha (opacity=.70); /*IE8 earlier*/
-
-}
-
-#nav_wrapper ul li {
-  list-style: none;
-  display: inline-block;
-  font-weight: bold;
-  padding: 15px;
-
-
-}
-
-#nav_wrapper a{
-  color: white;
-  text-decoration: none;
-
-}
-
-#nav_wrapper ul li:hover {
-  background: red;
-  transition: all 0.45s;
-  opacity: 0.9px;
-  filter: alpha (opacity=.70); /*IE8 earlier*/
-
+  font-weight: 100;
+  /*letter-spacing: 10;*/
+  font-size: 30px;
 
 }
 
 h2 {
-  text-transform: full-width;
-  text-align: center;
+font-weight: 200;
+letter-spacing: 1;
+font-family: monospace;
 
 }
+
+
+header nav {
+  background-color: red;
+  height: 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webbit-border-radius: 5px;
+
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+header nav ul li {
+  float: left;
+  display: inline;
+
+}
+
+header nav a:link, .navbar nav a:visited {
+  color: #FFF;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 20px;
+
+}
+
+header nav a:hover, .navbar nav a:active {
+  background-color: #CF5C3F;
+  text-shadow: none;
+}
+
+
 
 p {
 
@@ -80,10 +98,22 @@ p {
 
 }
 
-h1 {
 
-  margin-bottom: 15px;
-  padding: 15px;
-  text-align: center;
+.mainfooter {
+  width: 100%;
+  height: 40px;
+  float:left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webbit-border-radius: 5px;
+  background-color: #666;
+  margin: 0 auto;;
+  position: absolute;
+  bottom: 0px;
 
+}
+
+.mainfooter p {
+  width: 100%;
+  font-size: 95%;
 }
