@@ -24,8 +24,8 @@ html {
 img {
     border: 1px solid #ddd;
     border-radius: 100px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
 
@@ -46,8 +46,16 @@ font-family: monospace;
 
 }
 
+.social-icons {
+  font-size: 40px;
+}
 
-header nav {
+.social-icons a {
+  color: white;
+}
+
+
+/*header nav {
   background-color: red;
   height: 40px;
   border-radius: 5px;
@@ -81,25 +89,30 @@ header nav a:link, .navbar nav a:visited {
 header nav a:hover, .navbar nav a:active {
   background-color: #CF5C3F;
   text-shadow: none;
-}
+}*?
 
 
 
 p {
 
-  background-color: black;
-  font-size: 20px;
+  /*background-color: black;*/
+  font-size: 15px;
   font-style: italic;
   color: white;
   float: right;
   margin: 10px;
   padding: 10px;
 
+}
 
+.line-break {
+  width: 270px;
+  margin: 0 auto;
+  border-top: 1px solid white;
 }
 
 
-.mainfooter {
+/*.mainfooter {
   width: 100%;
   height: 40px;
   float:left;
@@ -116,4 +129,4 @@ p {
 .mainfooter p {
   width: 100%;
   font-size: 95%;
-}
+}*?
