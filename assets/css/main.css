@@ -2105,6 +2105,10 @@
 		padding: 7.5em 0 2em 0;
 		cursor: default;
 	}
+	/*#header img {
+		rgba(0, 0, 0, 0.7);
+    rgba(0, 0, 0, 0.7;
+	}*/
 
 		#header:before {
 			content: '';
