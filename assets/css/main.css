@@ -1990,7 +1990,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #000000b3;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2092,11 +2092,13 @@
 			padding-top: 0;
 		}
 
+
 /* Header */
 
 	#header {
 		position: relative;
 		background-image: url("../../images/header.jpg");
+;
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2105,10 +2107,7 @@
 		padding: 7.5em 0 2em 0;
 		cursor: default;
 	}
-	/*#header img {
-		rgba(0, 0, 0, 0.7);
-    rgba(0, 0, 0, 0.7;
-	}*/
+
 
 		#header:before {
 			content: '';
@@ -2960,6 +2959,8 @@
 			}
 
 				#header .inner {
+					position: relative;
+					margin-top: -200px;
 					padding-top: 1.5em;
 					padding-left: 1em;
 					padding-right: 1em;
@@ -3042,5 +3043,6 @@
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
+
 
 	}
