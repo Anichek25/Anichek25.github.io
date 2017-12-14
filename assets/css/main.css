@@ -85,6 +85,49 @@
 		width: 1400px;
 	}
 
+	main {
+
+	}
+	.wrapper {
+
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+
+	.wrapper div{
+		background: #eee;
+		margin-left: 0px;
+		padding-left: 100px;
+		padding-right: 100px;
+
+	}
+
+	.firstSkill{
+		height: 250px;
+		float: left;
+		margin-right: 100px;
+	}
+
+	.secondSkill{
+		height: 250px;
+		float:left;
+
+	}
+
+	.thirdSkill{
+		height: 250px;
+		float: right;
+
+
+	}
+
+
+
+
+	.wrapper p span.role {
+		 font-weight: 700; }
+	 .wrapper p span.date {
+		 opacity: .5; }
 	@media screen and (max-width: 1680px) {
 
 		.container.\31 25\25 {
@@ -2085,8 +2128,10 @@
 	.wrapper {
 		background: #fff;
 		margin: 0 0 2em 0;
-		padding: 6em 0 6em 0;
+		/*padding: 6em 0 6em 0;*/
 	}
+
+
 
 		.wrapper.style2 {
 			padding-top: 0;
@@ -2098,7 +2143,6 @@
 	#header {
 		position: relative;
 		background-image: url("../../images/header.jpg");
-;
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2679,6 +2723,10 @@
 
 			h3 {
 				font-size: 1.25em;
+				color: #47abc7 !important;
+				clear: both;
+				margin-top: 0;
+				padding-top: 30px;
 			}
 
 			hr {
@@ -3043,6 +3091,10 @@
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
-
-
-	}
+}
+					.wrapper h3 {
+						color: #47abc7 !important;
+						clear: both;
+						margin-top: 0;
+						padding-top: 30px;
+		 }
