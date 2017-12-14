@@ -93,16 +93,30 @@
 		display: grid;
 		grid-template-columns: 50% 50%;
 	}
+	.wrapper  div {
+				margin: 0 100px 0 100px;
+	}
 
-	.wrapper div{
+	/*.wrapper div{
 		background: #eee;
 		margin-left: 0px;
 		padding-left: 100px;
 		padding-right: 100px;
 
+	}*/
+
+	.nested {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1em;
+		float: left;
+		margin-left: 0;
 	}
 
-	.firstSkill{
+	.secDiv div{
+		margin-left: 0px;
+	}
+	/*.firstSkill{
 		height: 250px;
 		float: left;
 		margin-right: 100px;
@@ -119,7 +133,7 @@
 		float: right;
 
 
-	}
+	}*/
 
 
 
